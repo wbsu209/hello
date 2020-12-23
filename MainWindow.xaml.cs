@@ -16,6 +16,7 @@ namespace PCS2020
         {
             InitializeComponent();
             Closing += (s, e) => ViewModelLocator.Cleanup();
+            //commit test
         }
     }
 }
